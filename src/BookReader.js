@@ -5,9 +5,9 @@ const BookReader = () => {
     <div style={{ textAlign: 'center', padding: '20px', direction: 'rtl', fontFamily: 'Arial, sans-serif' }}>
       <h1>📖 قراءة الكتاب: ورد الولادة</h1>
       <h3>✍️ تأليف: نوره بنت عبدالرحمن (أم عبدالله)</h3>
-      <embed src="/Werdalweladah.pdf" width="80%" height="600px" type="application/pdf" />
+      <embed src={`${process.env.PUBLIC_URL}/Werdalweladah.pdf`} width="80%" height="600px" type="application/pdf" />
       <br />
-      <a href="/Werdalweladah.pdf" download="Werdalweladah.pdf">
+      <a href={`${process.env.PUBLIC_URL}/Werdalweladah.pdf`} download="Werdalweladah.pdf">
         <button style={{
           marginTop: '20px',
           padding: '10px 20px',
