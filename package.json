@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Jaw-kh.github.io/werd",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "autoprefixer": "^10.4.20",
@@ -7,10 +8,8 @@
     "tailwindcss": "^4.0.5"
   },
   "scripts": {
-"homepage": "https://Jaw-kh.github.io/werd",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test"
